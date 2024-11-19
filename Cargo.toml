@@ -1,7 +1,13 @@
 [workspace]
-members = ["bin/cli", "crates/anchorblock",  "examples/mev-arb-bot"]
+members = [
+    "bin/cli", 
+    "crates/anchorblock",  
+    "examples/mev-arb-bot"
+    ]
 
-default-members = []
+default-members = [
+    "bin/cli"
+]
 
 resolver = "2"
 
