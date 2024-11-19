@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "bin/cli", 
+    "bin/cli", "bin/mev-sniper", 
     "crates/anchorblock",  
     "examples/mev-arb-bot"
     ]
