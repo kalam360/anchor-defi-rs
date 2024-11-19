@@ -2,6 +2,7 @@
   "name": "anchor-defi-rs",
   "private": true,
   "scripts": {
+    "dev": "turbo run dev --filter=anchor-web"
   },
   "devDependencies": {
     "turbo": "latest",
