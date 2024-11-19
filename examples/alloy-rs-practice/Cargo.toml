@@ -1,0 +1,14 @@
+[package]
+name = "alloy-rs-practice"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name="init"
+path="src/init.rs"
+
+
+[dependencies]
+alloy = { version = "0.6.4", features = ["providers"] }
+eyre = "0.6.12"
+tokio = { version = "1.41.1", features = ["full"] }
