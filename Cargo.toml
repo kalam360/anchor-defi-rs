@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "bin/cli"
+]
+
+default-members = [
+
+]
+
+resolver = "2"
+
+
+[workspace.dependencies]
+
+
