@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "bin/cli", "bin/mev-sniper", 
-    "crates/anchorblock", "examples/alloy-rs-practice",  
+    "crates/anchorblock", "crates/design-patterns", "examples/alloy-rs-practice",  
     "examples/mev-arb-bot"
     ]
 
